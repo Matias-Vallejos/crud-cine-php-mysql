@@ -1,0 +1,9 @@
+#tarjetaPelicula {
+        max-width: 45%;
+    }
+
+    @media (max-width: 1000px) {
+        #tarjetaPelicula {
+            max-width: 70%; 
+        }
+    }
