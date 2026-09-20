@@ -71,4 +71,4 @@ El código fuente está organizado por responsabilidades y componentes de interf
 
 ---
 
-> 🎓 Contexto académico: Proyecto desarrollado para la materia Programación Web / Aplicaciones Interactivas — Carrera de Analista de Sistemas.
+> 🎓 Contexto académico: Proyecto desarrollado para la materia Programación Web II — Carrera de Analista de Sistemas.
