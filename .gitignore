@@ -1,0 +1,12 @@
+# IDE y editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs y temporales
+*.log
