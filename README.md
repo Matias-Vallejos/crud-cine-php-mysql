@@ -11,38 +11,33 @@ Aplicación web desarrollada en PHP y MySQL para la gestión integral de un cine
 
 ---
 
+## 🔑 Credenciales de prueba
+
+La base de datos de ejemplo incluye tres usuarios, uno por cada rol del sistema:
+
+| Rol | Email | Contraseña |
+|---|---|---|
+| Administrador | `admin@admin.com` | `asd` |
+| Premium | `premium@premium.com` | `asd` |
+| Común | `comun@comun.com` | `asd` |
+
+---
+
 ## 🏛️ Estructura del Proyecto
 
 El código fuente está organizado por responsabilidades y componentes de interfaz:
 
+- db/
+  - cinephp.sql
 - proyecto/
-  - acciones/
-    - borrar_pelicula.php
-    - cambiar_rol_usuario.php
-    - cerrar_sesion.php
-    - formulario_contacto.php
-    - ingresar_usuario.php
-    - modificar_pelicula.php
-    - modificar_usuario.php
-    - nueva_pelicula.php
-    - registrar_usuario.php
-  - clases/
-    - Conexion.php
-    - Pelicula.php
-    - Usuario.php
-  - componentes/
-    - banner_premium.php
-    - footer.php
-    - navbar.php
-  - css/
-    - estilos.css
-  - imagenes/
-    - home.png
-    - pochoclos.png
-    - posters/
-      - 12_angry_men.jpg
-  - db/
-    - cinephp.sql
+  - index.php — enrutador principal y plantilla base
+  - acciones/ — procesamiento de formularios (9 archivos)
+  - clases/ — modelos de dominio: `Conexion`, `Pelicula`, `Usuario`
+  - componentes/ — fragmentos reutilizables: `navbar`, `footer`, `banner_premium`
+  - css/ — `estilos.css`
+  - utilidades/ — helpers de validación, constantes de rol y conexión
+  - vistas/ — pantallas del sistema (14 archivos)
+  - imagenes/ — recursos gráficos y pósters de películas
 
 ---
 
