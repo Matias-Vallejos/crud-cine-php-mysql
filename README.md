@@ -4,6 +4,13 @@ Aplicación web desarrollada en PHP y MySQL para la gestión integral de un cine
 
 ---
 
+## 📸 Vista Previa del Sistema
+*Demostración del flujo de administración (inicio de sesión, modificación de registros y actualización en tiempo real):*
+
+![Demostración del CRUD de Cine PHP](imagenes/preview.gif)
+
+---
+
 ## 🏛️ Estructura del Proyecto
 
 El código fuente está organizado por responsabilidades y componentes de interfaz:
