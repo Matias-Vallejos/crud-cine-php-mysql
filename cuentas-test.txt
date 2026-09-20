@@ -1,4 +1,0 @@
-Cuentas de prueba:
- admin@admin.com   pass: asd
-premium@premium.com   pass: asd
-comun@comun.com   pass: asd
